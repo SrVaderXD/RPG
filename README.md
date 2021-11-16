@@ -1,1 +1,1 @@
-RPG
+A simple RPG game
