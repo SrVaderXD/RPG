@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"grass_tile01","path":"sprites/grass_tile01/grass_tile01.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
