@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0f3761b7-c972-4da2-a5dd-29b8558b777c","path":"sprites/grass_tile01/grass_tile01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0f3761b7-c972-4da2-a5dd-29b8558b777c","path":"sprites/grass_tile01/grass_tile01.yy",},"LayerId":{"name":"4a5554c0-ec9d-4aca-a5e1-e3794960f9e7","path":"sprites/grass_tile01/grass_tile01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"grass_tile01","path":"sprites/grass_tile01/grass_tile01.yy",},"resourceVersion":"1.0","name":"0f3761b7-c972-4da2-a5dd-29b8558b777c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f6459871-7293-4a5c-ab95-474cde9f1add","path":"sprites/wall_tile01/wall_tile01.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f6459871-7293-4a5c-ab95-474cde9f1add","path":"sprites/wall_tile01/wall_tile01.yy",},"LayerId":{"name":"54a569d3-e70b-4891-a483-5a791e1af3c6","path":"sprites/wall_tile01/wall_tile01.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"wall_tile01","path":"sprites/wall_tile01/wall_tile01.yy",},"resourceVersion":"1.0","name":"f6459871-7293-4a5c-ab95-474cde9f1add","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"grass_tile01","path":"sprites/grass_tile01/grass_tile01.yy",},
+    "spriteId": {"name":"wall_tile01","path":"sprites/wall_tile01/wall_tile01.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"227a11cd-514d-4bd3-9fad-307494597d2d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0f3761b7-c972-4da2-a5dd-29b8558b777c","path":"sprites/grass_tile01/grass_tile01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6c34effe-d92b-4399-b144-dc0c4ca96bfb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6459871-7293-4a5c-ab95-474cde9f1add","path":"sprites/wall_tile01/wall_tile01.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"grass_tile01","path":"sprites/grass_tile01/grass_tile01.yy",},
+    "parent": {"name":"wall_tile01","path":"sprites/wall_tile01/wall_tile01.yy",},
     "resourceVersion": "1.3",
-    "name": "grass_tile01",
+    "name": "wall_tile01",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4a5554c0-ec9d-4aca-a5e1-e3794960f9e7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"54a569d3-e70b-4891-a483-5a791e1af3c6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ground",
-    "path": "folders/Sprites/ground.yy",
+    "name": "wall",
+    "path": "folders/Sprites/wall.yy",
   },
   "resourceVersion": "1.0",
-  "name": "grass_tile01",
+  "name": "wall_tile01",
   "tags": [],
   "resourceType": "GMSprite",
 }
