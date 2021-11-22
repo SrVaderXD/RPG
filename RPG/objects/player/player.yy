@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "player_front01",
-    "path": "sprites/player_front01/player_front01.yy",
+    "name": "spr_player_down",
+    "path": "sprites/spr_player_down/spr_player_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/player.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "player",
   "tags": [],
   "resourceType": "GMObject",
 }

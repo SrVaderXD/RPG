@@ -1,10 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"order":1,},
+    {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":3,},
+    {"id":{"name":"player","path":"objects/player/player.yy",},"order":0,},
+    {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"order":2,},
     {"id":{"name":"grass_tile01","path":"sprites/grass_tile01/grass_tile01.yy",},"order":0,},
-    {"id":{"name":"player_front01","path":"sprites/player_front01/player_front01.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
+    {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":0,},
     {"id":{"name":"wall_tile01","path":"sprites/wall_tile01/wall_tile01.yy",},"order":0,},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"room_01","path":"rooms/room_01/room_01.yy",},"order":0,},
   ],
   "Options": [
@@ -40,12 +43,11 @@
     {"folderPath":"folders/Sprites/ground.yy","order":3,"resourceVersion":"1.0","name":"ground","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/wall.yy","order":4,"resourceVersion":"1.0","name":"wall","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/player.yy","order":5,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/player/player_front.yy","order":1,"resourceVersion":"1.0","name":"player_front","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/player/player_back.yy","order":2,"resourceVersion":"1.0","name":"player_back","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/player/player_left.yy","order":3,"resourceVersion":"1.0","name":"player_left","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/player/player_right.yy","order":4,"resourceVersion":"1.0","name":"player_right","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/wall.yy","order":1,"resourceVersion":"1.0","name":"wall","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/player.yy","order":2,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/player/walking.yy","order":4,"resourceVersion":"1.0","name":"walking","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/scenario.yy","order":6,"resourceVersion":"1.0","name":"scenario","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/scenario.yy","order":4,"resourceVersion":"1.0","name":"scenario","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
