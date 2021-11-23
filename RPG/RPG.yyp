@@ -6,6 +6,7 @@
     {"id":{"name":"enemy01","path":"sprites/enemy01/enemy01.yy",},"order":0,},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},"order":2,},
     {"id":{"name":"grass_tile01","path":"sprites/grass_tile01/grass_tile01.yy",},"order":0,},
+    {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"order":0,},
     {"id":{"name":"obj_enemy01","path":"objects/obj_enemy01/obj_enemy01.yy",},"order":0,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":0,},
@@ -52,6 +53,7 @@
     {"folderPath":"folders/Objects/scenario.yy","order":4,"resourceVersion":"1.0","name":"scenario","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/enemies.yy","order":7,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/enemies.yy","order":5,"resourceVersion":"1.0","name":"enemies","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/misc.yy","order":6,"resourceVersion":"1.0","name":"misc","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
