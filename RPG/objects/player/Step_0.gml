@@ -24,7 +24,13 @@ if(keyboard_check(ord("A")) && place_free(x-walkSpeed,y)) {
 if(keyboard_check(vk_nokey)) {
 	image_speed = 0;
 	image_index = 0;
+	walkSpeed = 3.5;
 }
+
+if(keyboard_check(vk_shift)) {
+	walkSpeed = 6;
+}
+
 
 camera_set_view_pos(view_camera[0], x - view_wport[0]/2, y - view_hport[0]/2);
 depth = -y;
