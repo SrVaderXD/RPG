@@ -3,3 +3,5 @@
 
 image_speed = 5;
 walkSpeed = 3.5;
+
+life = 100;
