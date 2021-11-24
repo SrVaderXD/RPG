@@ -12,6 +12,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":0,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":0,},
     {"id":{"name":"wall_tile01","path":"sprites/wall_tile01/wall_tile01.yy",},"order":0,},
+    {"id":{"name":"playerHurt","path":"sounds/playerHurt/playerHurt.yy",},"order":0,},
     {"id":{"name":"room_01","path":"rooms/room_01/room_01.yy",},"order":0,},
   ],
   "Options": [

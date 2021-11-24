@@ -34,3 +34,14 @@ if(keyboard_check(vk_shift)) {
 
 camera_set_view_pos(view_camera[0], x - view_wport[0]/2, y - view_hport[0]/2);
 depth = -y;
+
+if(place_meeting(x,y,obj_enemy01)){
+	if(random(100) < 25){
+		life--;
+		audio_play_sound(playerHurt, 1, false);
+	}
+}
+
+if(life <= 0) {
+	room_restart();
+}
